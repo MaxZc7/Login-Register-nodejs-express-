@@ -1,4 +1,18 @@
 {
+  "name": "practicing-login-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "MaxZ",
+  "license": "ISC",
+  
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
@@ -9,14 +23,8 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.22"
   },
-  "name": "practicing-login-register",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "MaxZ",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+ 
 }
