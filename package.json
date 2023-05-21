@@ -14,7 +14,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "npm run start index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MaxZ",
