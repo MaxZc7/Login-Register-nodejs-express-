@@ -16,4 +16,4 @@ db.connect((err) => {
 });
 app.use("/", require("./routes/pages"));
 app.use("/api", require("./controllers/sec"));
-app.listen(PORT);
+app.listen(process.env.PORT || PORT);
