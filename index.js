@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cookie = require("cookie-parser")
 const db = require("./routes/db_config");
-const PORT = 5000;
+const PORT = 3000 
 
 app.use("/js", express.static(__dirname + "/public/js"));
 app.use("/css", express.static(__dirname + "/public/css"));
@@ -16,4 +16,4 @@ db.connect((err) => {
 });
 app.use("/", require("./routes/pages"));
 app.use("/api", require("./controllers/sec"));
-app.listen(PORT);
+app.listen(port = process.env.PORT || PORT);
